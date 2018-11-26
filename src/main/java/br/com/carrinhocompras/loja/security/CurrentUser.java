@@ -7,7 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 
 import br.com.carrinhocompras.loja.models.SystemUser;
 
-@Model
+
+@Model //escopo de request
 public class CurrentUser {
 
 	@Inject
